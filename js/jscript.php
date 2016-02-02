@@ -1,0 +1,5 @@
+
+function wpssGetCookie(e){var t=document.cookie.indexOf(e+'=');var n=t+e.length+1;if(!t&&e!=document.cookie.substring(0,e.length)){return null}if(t==-1)return null;var r=document.cookie.indexOf(';',n);if(r==-1)r=document.cookie.length;return unescape(document.cookie.substring(n,r))}function wpssSetCookie(e,t,n,r,i,s){var o=new Date;o.setTime(o.getTime());if(n){n=n*1e3*60*60*24}var u=new Date(o.getTime()+n);document.cookie=e+'='+escape(t)+(n?';expires='+u.toGMTString():'')+(r?';path='+r:'')+(i?';domain='+i:'')+(s?';secure':'')}function wpssDeleteCookie(e,t,n){if(wpssGetCookie(e))document.cookie=e+'='+(t?';path='+t:'')+(n?';domain='+n:'')+';expires=Thu, 01-Jan-1970 00:00:01 GMT'}
+function wpssCommentVal(){wpssSetCookie('3100f39a3a0e391869b6c27399d72b44','1c5e60f4d22f8a4bcc86fd6458b80b6e','','/');wpssSetCookie('SJECT15','CKON15','','/');}
+wpssCommentVal();jQuery(document).ready(function($){var h="form[method='post']";$(h).submit(function(){$('<input>').attr('type','hidden').attr('name','321ef42f67b4265a629e5e73ace6f507').attr('value','32d1be70bb48904837a953f0646c8d43').appendTo(h);return true;})});
+// Generated in: 0.000233 seconds
